@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <nav>
+           <div class="logo">
+            <img src="img/email.svg" alt="">
+            <span>iValidate</span></div>
+        <ul>
+            <li>a href="/">Home</li>
+            <li>a href="/">About</li>
+            <li>a href="/"> Contact us</li>
+        </ul>
+       </nav>
+    </header>
+    <main>
+        <div class="container">
+           <h1>Enter Your email to validate</h1>
+           <form action="/submit" method="post">
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+        
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+        
+            <!-- Radio buttons for gender -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br><br>
+        
+            <!-- Submit button -->
+            <input class="bt" type="submit" value="Submit">
+          </form>
+        </div>
+    </main>
+    <footer>
+        Copywright iValidate.com|All Rights reserved 
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
